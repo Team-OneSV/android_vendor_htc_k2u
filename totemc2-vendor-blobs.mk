@@ -24,8 +24,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/totemc2/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/totemc2/proprietary/bin/cand:system/bin/cand \
   vendor/htc/totemc2/proprietary/bin/charging:system/bin/charging \
-  vendor/htc/totemc2/proprietary/bin/ewtzmud:system/bin/ewtzmud \
-  vendor/htc/totemc2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
   vendor/htc/totemc2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/totemc2/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/totemc2/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -33,26 +31,17 @@ PRODUCT_COPY_FILES += \
   vendor/htc/totemc2/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/totemc2/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/totemc2/proprietary/bin/thermald:system/bin/thermald \
-  vendor/htc/totemc2/proprietary/bin/zchgd:system/bin/zchgd \
   vendor/htc/totemc2/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/totemc2/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-  vendor/htc/totemc2/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
-  vendor/htc/totemc2/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
-  vendor/htc/totemc2/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
-  vendor/htc/totemc2/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
-  vendor/htc/totemc2/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
   vendor/htc/totemc2/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/totemc2/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/totemc2/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
-  vendor/htc/totemc2/proprietary/lib/libDxOAF.so:system/lib/libDxOAF.so \
   vendor/htc/totemc2/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/totemc2/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
   vendor/htc/totemc2/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
-  vendor/htc/totemc2/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
   vendor/htc/totemc2/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/totemc2/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/totemc2/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-  vendor/htc/totemc2/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc/totemc2/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/totemc2/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/totemc2/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -77,41 +66,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/totemc2/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
   vendor/htc/totemc2/proprietary/lib/libwvm.so:system/lib/libwvm.so \
   vendor/htc/totemc2/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem.b07:system/etc/firmware/modem.b07 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b00:system/etc/firmware/modem_fw.b00 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b01:system/etc/firmware/modem_fw.b01 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b02:system/etc/firmware/modem_fw.b02 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b03:system/etc/firmware/modem_fw.b03 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b04:system/etc/firmware/modem_fw.b04 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b05:system/etc/firmware/modem_fw.b05 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b06:system/etc/firmware/modem_fw.b06 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b07:system/etc/firmware/modem_fw.b07 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b08:system/etc/firmware/modem_fw.b08 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b09:system/etc/firmware/modem_fw.b09 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b10:system/etc/firmware/modem_fw.b10 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b13:system/etc/firmware/modem_fw.b13 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b14:system/etc/firmware/modem_fw.b14 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b21:system/etc/firmware/modem_fw.b21 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b22:system/etc/firmware/modem_fw.b22 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b23:system/etc/firmware/modem_fw.b23 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b25:system/etc/firmware/modem_fw.b25 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b26:system/etc/firmware/modem_fw.b26 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.b29:system/etc/firmware/modem_fw.b29 \
-  vendor/htc/totemc2/proprietary/etc/firmware/modem_fw.mdt:system/etc/firmware/modem_fw.mdt \
-  vendor/htc/totemc2/proprietary/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
-  vendor/htc/totemc2/proprietary/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
-  vendor/htc/totemc2/proprietary/etc/firmware/q6.b03:system/etc/firmware/q6.b03 \
-  vendor/htc/totemc2/proprietary/etc/firmware/q6.b04:system/etc/firmware/q6.b04 \
-  vendor/htc/totemc2/proprietary/etc/firmware/q6.b05:system/etc/firmware/q6.b05 \
-  vendor/htc/totemc2/proprietary/etc/firmware/q6.b06:system/etc/firmware/q6.b06 \
-  vendor/htc/totemc2/proprietary/etc/firmware/q6.mdt:system/etc/firmware/q6.mdt \
   vendor/htc/totemc2/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/totemc2/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/totemc2/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -127,13 +81,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/totemc2/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/totemc2/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/totemc2/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-  vendor/htc/totemc2/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-  vendor/htc/totemc2/proprietary/lib/hw/sensors.ville.so:system/lib/hw/sensors.ville.so \
-  vendor/htc/totemc2/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-  vendor/htc/totemc2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-  vendor/htc/totemc2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-  vendor/htc/totemc2/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-  vendor/htc/totemc2/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-  vendor/htc/totemc2/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-  vendor/htc/totemc2/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-  vendor/htc/totemc2/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
+  vendor/htc/totemc2/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
