@@ -33,6 +33,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/totemc2/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/totemc2/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/totemc2/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+  vendor/htc/totemc2/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+  vendor/htc/totemc2/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/totemc2/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/totemc2/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/totemc2/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
@@ -53,6 +55,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/totemc2/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/totemc2/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/totemc2/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+  vendor/htc/totemc2/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
   vendor/htc/totemc2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
   vendor/htc/totemc2/proprietary/lib/libgps.so:system/lib/libgps.so \
   vendor/htc/totemc2/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
