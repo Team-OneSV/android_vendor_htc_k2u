@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/totemc2/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/totemc2/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/totemc2/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
+  vendor/htc/totemc2/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
   vendor/htc/totemc2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
   vendor/htc/totemc2/proprietary/lib/libgps.so:system/lib/libgps.so \
   vendor/htc/totemc2/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
