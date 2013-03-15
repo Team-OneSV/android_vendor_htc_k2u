@@ -45,6 +45,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/totemc2/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/totemc2/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/totemc2/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
+  vendor/htc/totemc2/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+  vendor/htc/totemc2/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
   vendor/htc/totemc2/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/totemc2/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/totemc2/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
