@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
   vendor/htc/totemc2/proprietary/etc/agps_rm:system/etc/agps_rm \
+  vendor/htc/totemc2/proprietary/etc/calibration:system/etc/calibration \
+  vendor/htc/totemc2/proprietary/etc/calibration.gpio4:system/etc/calibration.gpio4 \
   vendor/htc/totemc2/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/totemc2/proprietary/bin/cand:system/bin/cand \
   vendor/htc/totemc2/proprietary/bin/charging:system/bin/charging \
