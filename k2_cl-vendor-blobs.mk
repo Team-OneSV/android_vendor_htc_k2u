@@ -21,8 +21,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
   vendor/htc/k2_cl/proprietary/etc/agps_rm:system/etc/agps_rm \
-  vendor/htc/k2_cl/proprietary/etc/calibration:system/etc/calibration \
-  vendor/htc/k2_cl/proprietary/etc/calibration.gpio4:system/etc/calibration.gpio4 \
   vendor/htc/k2_cl/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/k2_cl/proprietary/bin/cand:system/bin/cand \
   vendor/htc/k2_cl/proprietary/bin/charging:system/bin/charging \
