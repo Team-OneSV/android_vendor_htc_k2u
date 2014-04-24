@@ -217,6 +217,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2_u/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
   vendor/htc/k2_u/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/k2_u/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+  vendor/htc/k2_u/proprietary/lib/bluez-plugin/network.so:system/lib/bluez-plugin/network.so \
+  vendor/htc/k2_u/proprietary/lib/bluez-plugin/input.so:system/lib/bluez-plugin/input.so \
+  vendor/htc/k2_u/proprietary/lib/bluez-plugin/bluetooth-health.so:system/lib/bluez-plugin/bluetooth-health.so \
+  vendor/htc/k2_u/proprietary/lib/bluez-plugin/audio.so:system/lib/bluez-plugin/audio.so \
   vendor/htc/k2_u/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
   vendor/htc/k2_u/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
   vendor/htc/k2_u/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
@@ -232,17 +236,37 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2_u/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/k2_u/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/k2_u/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
-  vendor/htc/k2_u/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-  vendor/htc/k2_u/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-  vendor/htc/k2_u/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-  vendor/htc/k2_u/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/k2_u/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+  vendor/htc/k2_u/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+  vendor/htc/k2_u/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+  vendor/htc/k2_u/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+  vendor/htc/k2_u/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+  vendor/htc/k2_u/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+  vendor/htc/k2_u/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+  vendor/htc/k2_u/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
   vendor/htc/k2_u/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/k2_u/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/k2_u/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/k2_u/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/k2_u/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+  vendor/htc/k2_u/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+  vendor/htc/k2_u/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+  vendor/htc/k2_u/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
+  vendor/htc/k2_u/proprietary/lib/hw/nfc.k2_u.so:system/lib/hw/nfc.k2_u.so \
+  vendor/htc/k2_u/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
+  vendor/htc/k2_u/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
+  vendor/htc/k2_u/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+  vendor/htc/k2_u/proprietary/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
+  vendor/htc/k2_u/proprietary/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
+  vendor/htc/k2_u/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
   vendor/htc/k2_u/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+  vendor/htc/k2_u/proprietary/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
+  vendor/htc/k2_u/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+  vendor/htc/k2_u/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+  vendor/htc/k2_u/proprietary/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so \
+  vendor/htc/k2_u/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+  vendor/htc/k2_u/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+  vendor/htc/k2_u/proprietary/lib/hw/alsa.msm8960.so:system/lib/hw/alsa.msm8960.so \
   vendor/htc/k2_u/proprietary/lib/libgps.so:system/lib/libgps.so \
   vendor/htc/k2_u/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
   vendor/htc/k2_u/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
@@ -269,6 +293,19 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2_u/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
   vendor/htc/k2_u/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
   vendor/htc/k2_u/proprietary/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd:system/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd \
+  vendor/htc/k2_u/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin \
+  vendor/htc/k2_u/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+  vendor/htc/k2_u/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+  vendor/htc/k2_u/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+  vendor/htc/k2_u/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+  vendor/htc/k2_u/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+  vendor/htc/k2_u/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
+  vendor/htc/k2_u/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
+  vendor/htc/k2_u/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin \
+  vendor/htc/k2_u/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin \
+  vendor/htc/k2_u/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin \
+  vendor/htc/k2_u/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin \
+  vendor/htc/k2_u/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin \
   vendor/htc/k2_u/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/k2_u/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/k2_u/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -284,4 +321,32 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2_u/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/k2_u/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/k2_u/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-  vendor/htc/k2_u/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
+  vendor/htc/k2_u/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+  vendor/htc/k2_u/proprietary/lib/drm/libhtcomaplugin.so:system/lib/drm/libhtcomaplugin.so \
+  vendor/htc/k2_u/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/qcedev.ko:system/lib/modules/qcedev.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/qce40.ko:system/lib/modules/qce40.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/ks8851.ko:system/lib/modules/ks8851.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/bluetooth-power.ko:system/lib/modules/bluetooth-power.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
+  vendor/htc/k2_u/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
+  vendor/htc/k2_u/proprietary/lib/plugins/com.adobe.flashplayer/libysshared.so:system/lib/plugins/com.adobe.flashplayer/libysshared.so \
+  vendor/htc/k2_u/proprietary/lib/plugins/com.adobe.flashplayer/libstagefright_honeycomb.so:system/lib/plugins/com.adobe.flashplayer/libstagefright_honeycomb.so \
+  vendor/htc/k2_u/proprietary/lib/plugins/com.adobe.flashplayer/libstagefright_froyo.so:system/lib/plugins/com.adobe.flashplayer/libstagefright_froyo.so \
+  vendor/htc/k2_u/proprietary/lib/plugins/com.adobe.flashplayer/libflashplayer.so:system/lib/plugins/com.adobe.flashplayer/libflashplayer.so \
+  vendor/htc/k2_u/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+  vendor/htc/k2_u/proprietary/lib/soundfx/libsrsfx.so:system/lib/soundfx/libsrsfx.so \
+  vendor/htc/k2_u/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+  vendor/htc/k2_u/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+  vendor/htc/k2_u/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+  vendor/htc/k2_u/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+  vendor/htc/k2_u/proprietary/lib/ssl/engines/libkeystore.so:system/lib/ssl/engines/libkeystore.so
