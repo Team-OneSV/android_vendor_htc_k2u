@@ -225,15 +225,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2_u/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/k2_u/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/k2_u/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
-  vendor/htc/k2_u/proprietary/lib/libDxOAF.so:system/lib/libDxOAF.so \
   vendor/htc/k2_u/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/k2_u/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
   vendor/htc/k2_u/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
-  vendor/htc/k2_u/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
   vendor/htc/k2_u/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/k2_u/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/k2_u/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-  vendor/htc/k2_u/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc/k2_u/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/k2_u/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/k2_u/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -252,12 +249,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2_u/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/k2_u/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
   vendor/htc/k2_u/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
-  vendor/htc/k2_u/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/k2_u/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-  vendor/htc/k2_u/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-  vendor/htc/k2_u/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-  vendor/htc/k2_u/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-  vendor/htc/k2_u/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
   vendor/htc/k2_u/proprietary/etc/firmware/:system/etc/firmware/ \
   vendor/htc/k2_u/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
   vendor/htc/k2_u/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
