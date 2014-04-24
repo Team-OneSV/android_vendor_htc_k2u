@@ -258,41 +258,25 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2_u/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
   vendor/htc/k2_u/proprietary/lib/libwvm.so:system/lib/libwvm.so \
   vendor/htc/k2_u/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem.b07:system/etc/firmware/modem.b07 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b00:system/etc/firmware/modem_fw.b00 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b01:system/etc/firmware/modem_fw.b01 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b02:system/etc/firmware/modem_fw.b02 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b03:system/etc/firmware/modem_fw.b03 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b04:system/etc/firmware/modem_fw.b04 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b05:system/etc/firmware/modem_fw.b05 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b06:system/etc/firmware/modem_fw.b06 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b07:system/etc/firmware/modem_fw.b07 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b08:system/etc/firmware/modem_fw.b08 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b09:system/etc/firmware/modem_fw.b09 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b10:system/etc/firmware/modem_fw.b10 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b13:system/etc/firmware/modem_fw.b13 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b14:system/etc/firmware/modem_fw.b14 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b21:system/etc/firmware/modem_fw.b21 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b22:system/etc/firmware/modem_fw.b22 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b23:system/etc/firmware/modem_fw.b23 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b25:system/etc/firmware/modem_fw.b25 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b26:system/etc/firmware/modem_fw.b26 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.b29:system/etc/firmware/modem_fw.b29 \
-  vendor/htc/k2_u/proprietary/etc/firmware/modem_fw.mdt:system/etc/firmware/modem_fw.mdt \
-  vendor/htc/k2_u/proprietary/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
-  vendor/htc/k2_u/proprietary/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
-  vendor/htc/k2_u/proprietary/etc/firmware/q6.b03:system/etc/firmware/q6.b03 \
-  vendor/htc/k2_u/proprietary/etc/firmware/q6.b04:system/etc/firmware/q6.b04 \
-  vendor/htc/k2_u/proprietary/etc/firmware/q6.b05:system/etc/firmware/q6.b05 \
-  vendor/htc/k2_u/proprietary/etc/firmware/q6.b06:system/etc/firmware/q6.b06 \
-  vendor/htc/k2_u/proprietary/etc/firmware/q6.mdt:system/etc/firmware/q6.mdt \
+  vendor/htc/k2_u/proprietary/etc/firmware/:system/etc/firmware/ \
+  vendor/htc/k2_u/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+  vendor/htc/k2_u/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+  vendor/htc/k2_u/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+  vendor/htc/k2_u/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
+  vendor/htc/k2_u/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
+  vendor/htc/k2_u/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
+  vendor/htc/k2_u/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
+  vendor/htc/k2_u/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+  vendor/htc/k2_u/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+  vendor/htc/k2_u/proprietary/etc/firmware/fw_bcm4334_p2p.bin:system/etc/firmware/fw_bcm4334_p2p.bin \
+  vendor/htc/k2_u/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
+  vendor/htc/k2_u/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
+  vendor/htc/k2_u/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+  vendor/htc/k2_u/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+  vendor/htc/k2_u/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+  vendor/htc/k2_u/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+  vendor/htc/k2_u/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+  vendor/htc/k2_u/proprietary/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd:system/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd \
   vendor/htc/k2_u/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/k2_u/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/k2_u/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -308,13 +292,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2_u/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/k2_u/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/k2_u/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-  vendor/htc/k2_u/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-  vendor/htc/k2_u/proprietary/lib/hw/sensors.ville.so:system/lib/hw/sensors.ville.so \
-  vendor/htc/k2_u/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-  vendor/htc/k2_u/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-  vendor/htc/k2_u/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-  vendor/htc/k2_u/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-  vendor/htc/k2_u/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-  vendor/htc/k2_u/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-  vendor/htc/k2_u/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-  vendor/htc/k2_u/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
+  vendor/htc/k2_u/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
