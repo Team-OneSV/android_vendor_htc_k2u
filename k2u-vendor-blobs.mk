@@ -249,10 +249,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2u/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/k2u/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/k2u/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+  vendor/htc/k2u/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
   vendor/htc/k2u/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
   vendor/htc/k2u/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
   vendor/htc/k2u/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
-  vendor/htc/k2u/proprietary/lib/hw/nfc.k2u.so:system/lib/hw/nfc.k2u.so \
+  vendor/htc/k2u/proprietary/lib/hw/nfc.k2_u.so:system/lib/hw/nfc.k2_u.so \
   vendor/htc/k2u/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
   vendor/htc/k2u/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
   vendor/htc/k2u/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
@@ -274,7 +275,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/k2u/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
   vendor/htc/k2u/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
   vendor/htc/k2u/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-  vendor/htc/k2u/proprietary/etc/firmware/:system/etc/firmware/ \
   vendor/htc/k2u/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
   vendor/htc/k2u/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
   vendor/htc/k2u/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
